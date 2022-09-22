@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code Translator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <h1 class="title">Morse Code Translator</h1>
+    <div class="control-panel">
+        <select name="input-language" class="input-language" id="input-language">
+            <option value="" disabled selected>Please select an option...</option>
+            <option value="English">English to Morse</option>
+            <option value="Morse">Morse to English</option>
+        </select>
+        <p class="instructions">
+            Type Morse code using the '.' and '-' characters.
+            Seperate letters with a space (' ') and words with a slash ('/').
+        </p>
+    </div>
+    <div class="translator">
+            <label for="input" class="error-msg">Invalid Morse code detected</label>
+            <textarea disabled name="input" id="text-input" class="text-input" cols="30" rows="10"></textarea>
+        <div class="text-output"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.input-language {
+    font-size: 1em;
+    text-align: center;
+    width: 40%;
+}
+
+.instructions {
+    width: 75%;
+    padding: 10px;
+}
+
+.translator {
+    margin: auto;
+    width: 80%;
+}
+
+.text-input {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 1em;
+}
+
+.text-output {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    height: 120px;
+}
+
+.error-msg {
+    color: red;
+    display: none;
+}
+
